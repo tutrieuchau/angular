@@ -1,0 +1,64 @@
+/** Custom style **/
+
+.fusion-prev {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.feature-slide {
+  height: 325px;
+}
+
+.carousel-slide-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  color: #fff;
+}
+
+.carousel-left {
+  left: 0;
+}
+
+.carousel-right {
+  right: 0;
+}
+
+.carousel-chevron {
+  position: relative;
+  top: 46%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px !important;
+  background-color: #000;
+  opacity: 0;
+}
+
+.carousel-chevron:hover {
+  opacity: 1;
+}
+.carousel-indicators > li {
+    width: 6px;
+    height: 6px;
+}
+.carousel-indicators .active{
+    width: 8px;
+    height: 8px;
+}
+.fusion-date-and-formats{
+        float: left;
+    margin-right: 17px;
+    width: 82px;
+    text-align: center;
+}
+.fusion-date-box {
+    padding: 8px 0 5px;
+    color: #fff;
+    display: block;
+}
+.fusion-format-box {
+    color: #a0ce4e;
+}
