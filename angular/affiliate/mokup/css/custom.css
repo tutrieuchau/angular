@@ -58,7 +58,31 @@
     padding: 8px 0 5px;
     color: #fff;
     display: block;
+    background-color: #a0ce4e;
+    border-color: #a0ce4e;
 }
 .fusion-format-box {
+    margin-top: 3px;
+    background-color: #eef0f2;
     color: #a0ce4e;
+}
+.fusion-date {
+    display: block;
+    line-height: 29px;
+    font-size: 29px;
+    font-weight: 700;
+}
+.fusion-format-box i {
+    display: block;
+    line-height: 55px;
+    font-size: 30px;
+}
+.fusion-post-title{
+    margin-left: 100px;
+}
+.fusion-entry-title{
+        color: #475b6f;
+    font-size: 18pt;
+    font-weight: 700;
+    margin-top: 30px;
 }
