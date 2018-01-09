@@ -1,9 +1,3 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
 
@@ -48,6 +42,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   </script>
   <link href="./plugin/bootstrap/dist/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
   <link href="./fonts/font-awesome/css/font-awesome.min.css" rel='stylesheet' type='text/css' />
+  <link href="./css/reset.css" rel='stylesheet' type='text/css' />
   <link href="./css/custom.css" rel='stylesheet' type='text/css' />
   <script type="text/javascript" src="./plugin/bootstrap/dist/js/bootstrap.min.js"></script>
   <!---->
@@ -57,43 +52,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
   <!---header---->
   <div class="header">
-    <div class="container">
-      <div class="logo">
-        <a href="index.html">
-          <img src="images/logo.jpg" title="" />
-        </a>
-      </div>
-      <!---start-top-nav---->
-      <div class="top-menu">
-        <div class="search">
-          <form>
-            <input type="text" placeholder="" required="">
-            <input type="submit" value="" />
-          </form>
+    <nav class="fusion-navbar">
+      <div class="container container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebsiteLogo</a>
         </div>
-        <span class="menu"> </span>
-        <ul>
-          <li class="active">
-            <a href="index.html">HOME</a>
-          </li>
-          <li>
-            <a href="about.html">ABOUT</a>
-          </li>
-          <li>
-            <a href="contact.html">CONTACT</a>
-          </li>
-          <div class="clearfix"> </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
         </ul>
+        <nav class="navbar-search-form">
+          <form class="form-inline" action="/action_page.php">
+            <div class="box">
+              <div class="search-container">
+                <span class="icon"><i class="fa fa-search"></i></span>
+                <input type="search" id="search" placeholder="Tìm kiếm..." />
+              </div>
+            </div>
+          </form>
+        </nav>
       </div>
-      <div class="clearfix"></div>
-      <script>
-        $("span.menu").click(function () {
-          $(".top-menu ul").slideToggle("slow", function () {});
-        });
-
-      </script>
-      <!---//End-top-nav---->
-    </div>
+    </nav>
   </div>
   <!--/header-->
   <div class="content">
@@ -245,87 +226,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           <!-- end post 2 -->
         </div>
         <div class="col-md-3 content-right">
-          <div class="recent">
-            <h3>RECENT POSTS</h3>
+          <div class="col-md-12 content-right-header clearfix">
             <ul>
-              <li>
-                <a href="#">Aliquam tincidunt mauris</a>
-              </li>
-              <li>
-                <a href="#">Vestibulum auctor dapibus lipsum</a>
-              </li>
-              <li>
-                <a href="#">Nunc dignissim risus consecu</a>
-              </li>
-              <li>
-                <a href="#">Cras ornare tristiqu</a>
-              </li>
+              <li class="col-md-6 active"><a href="#">Phổ Biến</a></li>
+              <li class="col-md-6" onclick=""><a href="#">Mới Nhất</a></li>
             </ul>
           </div>
-          <div class="comments">
-            <h3>RECENT COMMENTS</h3>
-            <ul>
-              <li>
-                <a href="#">Amada Doe </a> on
-                <a href="#">Hello World!</a>
-              </li>
-              <li>
-                <a href="#">Peter Doe </a> on
-                <a href="#"> Photography</a>
-              </li>
-              <li>
-                <a href="#">Steve Roberts </a> on
-                <a href="#">HTML5/CSS3</a>
-              </li>
-            </ul>
+          <div class="content-right-post">
+
           </div>
-          <div class="clearfix"></div>
-          <div class="archives">
-            <h3>ARCHIVES</h3>
-            <ul>
-              <li>
-                <a href="#">October 2013</a>
-              </li>
-              <li>
-                <a href="#">September 2013</a>
-              </li>
-              <li>
-                <a href="#">August 2013</a>
-              </li>
-              <li>
-                <a href="#">July 2013</a>
-              </li>
-            </ul>
-          </div>
-          <div class="categories">
-            <h3>CATEGORIES</h3>
-            <ul>
-              <li>
-                <a href="#">Vivamus vestibulum nulla</a>
-              </li>
-              <li>
-                <a href="#">Integer vitae libero ac risus e</a>
-              </li>
-              <li>
-                <a href="#">Vestibulum commo</a>
-              </li>
-              <li>
-                <a href="#">Cras iaculis ultricies</a>
-              </li>
-            </ul>
-          </div>
-          <div class="clearfix"></div>
         </div>
         <div class="clearfix"></div>
       </div>
-    </div>
-  </div>
-  <!---->
-  <div class="footer">
-    <div class="container">
-      <p>Copyrights © 2015 Blog All rights reserved | Template by
-        <a href="http://w3layouts.com/">W3layouts</a>
-      </p>
     </div>
   </div>
   <!-- Footer -->
@@ -369,8 +281,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 document.write(new Date().getFullYear());
 
               </script>2018&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Avada Theme by
-              <a href="http://theme-fusion.com" target="_blank">Theme Fusion</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Powered
-              by
+              <a href="http://theme-fusion.com" target="_blank">Theme Fusion</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;All
+              Rights Reserved&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Powered by
               <a href="http://wordpress.org" target="_blank">WordPress</a>
             </div>
           </div>

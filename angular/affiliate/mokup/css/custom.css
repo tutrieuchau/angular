@@ -106,82 +106,180 @@
   font-size: 12pt;
   line-height: 1.9;
 }
-.fusion-post-avatar img{
-    border-radius: 40px;
-    box-shadow: 0 0 3px #555;
-    height: 40px;
-    width: 40px;
-}
-.fusion-post-info{
-    margin-top: 20px;
-}
-.fusion-post-avatar{
-    margin-right: 10px;
-}
-.fusion-inline-step{
-    padding: 0 5px;
-}
-.fusion-meta-info{
-    clear: both;
-    overflow: hidden;
-    border-bottom: 1px solid #e7e6e6;
-    font-size: 12px;
-}
-.post-article{
-    margin-bottom: 65px;
-}
-.fusion-post-image{
-    margin-bottom: 30px;
-}
-/** Footer**/
-.fusion-footer{
 
+.fusion-post-avatar img {
+  border-radius: 40px;
+  box-shadow: 0 0 3px #555;
+  height: 40px;
+  width: 40px;
 }
+
+.fusion-post-info {
+  margin-top: 20px;
+}
+
+.fusion-post-avatar {
+  margin-right: 10px;
+}
+
+.fusion-inline-step {
+  padding: 0 5px;
+}
+
+.fusion-meta-info {
+  clear: both;
+  overflow: hidden;
+  border-bottom: 1px solid #e7e6e6;
+  font-size: 12px;
+}
+
+.post-article {
+  margin-bottom: 65px;
+}
+
+.fusion-post-image {
+  margin-bottom: 30px;
+}
+
+
+/** Footer**/
+
+.fusion-footer {}
+
 .fusion-footer-widget-area {
-    overflow: hidden;
-    position: relative;
-    padding: 43px 10px 40px;
-    border-top: 12px solid #e9eaee;
-    background: #363839;
-    color: #8c8989;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+  overflow: hidden;
+  position: relative;
+  padding: 43px 10px 40px;
+  border-top: 12px solid #e9eaee;
+  background: #363839;
+  color: #8c8989;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
+
 .fusion-row {
-    margin: 0 auto;
-    zoom: 1;
-    padding-left: 0px;
-    padding-right: 0px;
+  margin: 0 auto;
+  zoom: 1;
+  padding-left: 0px;
+  padding-right: 0px;
 }
+
 .fusion-columns {
-    margin: 0 -15px;
+  margin: 0 -15px;
 }
+
 .fusion-footer-widget-area {
-    overflow: hidden;
-    position: relative;
-    padding: 43px 10px 40px;
-    border-top: 12px solid #e9eaee;
-    background: #363839;
-    color: #8c8989;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+  overflow: hidden;
+  position: relative;
+  padding: 43px 10px 40px;
+  border-top: 12px solid #e9eaee;
+  background: #363839;
+  color: #8c8989;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
+
 .fusion-footer-copyright-area {
-    background-color: #282a2b;
-    border-color: #4b4c4d;
-    border-top-width: 1px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  background-color: #282a2b;
+  border-color: #4b4c4d;
+  border-top-width: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 .fusion-copyright-content {
-    display: table;
-    width: 100%;
+  display: table;
+  width: 100%;
 }
+
 .fusion-copyright-notice {
-    display: table-cell;
-    vertical-align: middle;
-    margin: 0;
-    padding: 0;
-    color: #8c8989;
-    font-size: 12px;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  color: #8c8989;
+  font-size: 12px;
 }
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px #e0e4e3;
+}
+
+.fusion-navbar {
+  padding: 5px 0px;
+}
+
+
+/** Search box **/
+
+.navbar-search-form {
+  margin-top: 5px;
+  float: left;
+  right: 11%;
+  position: absolute;
+}
+
+.search-container {
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.search-container input#search {
+  width: 350px;
+  height: 40px;
+  background: #f7f7f7;
+  border-color: #ebebeb;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.search-container .icon {
+  position: absolute;
+  margin-left: 14px;
+  margin-top: 10px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+.content-right-header ul {
+  list-style: none;
+}
+
+.content-right-header ul li {
+   border-bottom: 1px solid #f3f3f3; 
+  padding: 5px 0;
+  text-align: center;
+}
+
+.content-right-header .active {
+  border-bottom: 2px solid #34aa40;
+  padding: 5px 0;
+  color: #34aa40;
+  text-align: center;
+}
+.content-right-header .active a{
+  color: #34aa40;
+}
+.content-right-header ul li a {
+  text-transform: uppercase;
+  color: #aeaeae;
+  font-weight: 500;
+}
+.content-right-header ul li a:hover{
+  color: #333;
+}
+
