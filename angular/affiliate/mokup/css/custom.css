@@ -282,4 +282,12 @@
 .content-right-header ul li a:hover{
   color: #333;
 }
+.content-right{
+  border: 1px solid #f3f3f3;
+}
+.content-right-thumbnail{
+  height:90px;
+  width: 90px;
+  background-image:url('../images/post/post1.jpg');
+}
 
